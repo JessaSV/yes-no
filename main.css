@@ -1,0 +1,57 @@
+body {
+	background: rgb(0,242,226);
+	animation: body 2.5s;
+}
+
+h1 {
+	position: fixed;
+	left: 680px;
+	top: 30px;
+}
+
+
+#quoteDisplay {
+	position: absolute;
+	left: 745px;
+	top: 280px;
+}
+
+.container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:  translate(-50%, -50%);
+
+}
+
+.btn1 {
+	border: none;
+	margin: 20px;
+	padding: 30px;
+	width: 230px;
+	border-radius: 6px;
+	cursor: pointer;
+	background: linear-gradient(to bottom, rgba(255,248,50,1) 0%,rgba(209,174,0,1) 49%,rgba(255,251,137,1) 100%);
+}
+
+.foto2 {
+	left: 1100px;
+	position: fixed;
+	top: 250px;
+
+}
+
+.foto1 {
+	position: fixed;
+	left: 100px;
+	top: 250px;
+}
+
+@keyframes body {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
